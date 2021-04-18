@@ -1,14 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import Divider from 'material-ui/Divider';
-import InfoIcon from 'material-ui-icons/Info';
-import AddToQueueIcon from 'material-ui-icons/AddToQueue';
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
+import { List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
+import Divider from "@material-ui/core/Divider";
+import InfoIcon from "@material-ui/icons/Info";
+import AddToQueueIcon from "@material-ui/icons/AddToQueue";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
-    width: '100%',
+    width: "100%",
     maxWidth: 360,
     background: theme.palette.background.paper,
   },
@@ -54,8 +54,8 @@ export default withStyles(styles)(LeftPanel);
 import React from 'react';
 import {List, ListItem} from 'material-ui/List';
 import MobileTearSheet from '../MobileTearSheet';
-import ActionInfo from 'material-ui-icons/Info';
-import AddToQueue from 'material-ui-icons/AddToQueue';
+import ActionInfo from '@material-ui/icons/Info';
+import AddToQueue from '@material-ui/icons/AddToQueue';
 import Divider from 'material-ui/Divider';
 
 
